@@ -1,17 +1,23 @@
-<style>
+
         body {
-            background-color: #f0f8ff;
+            background-image: url("../Imagens/LogoSerra.png"), 
+                              url("../Imagens/moroccan-flower-dark.png"); 
+            background-repeat: no-repeat, repeat;
+            background-position: top right, center;
+            background-attachment: fixed, fixed;
+            background-size: auto, cover;
         }
 
         h1 {
             text-align: center;
             font-family: "Brush Script MT", cursive;
-            color: #1e90ff;
+            color: #d2d4d4;
         }
 
         h2 {
             text-align: center;
             font-family: Arial, sans-serif;
+            background-image: url("../Imagens/moroccan-flower.png");
             background-color: #dcdcdc;
             color: #2f4f4f;
         }
@@ -28,11 +34,12 @@
            padding: 15px;
            margin: 20px auto;
            max-width: 600px;
+           background-image: url("../Imagens/moroccan-flower.png");
            background-color: #fff;
 }
         a {
            text-decoration: none;
-           color: #1e90ff;
+           color: #e0eeee;
            font-weight: bold;
            transition: 0.3s;
 }
