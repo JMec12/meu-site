@@ -1,0 +1,47 @@
+body {
+    background-color: #d2d4d4;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333333;
+}
+.topo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 400px;
+}
+
+
+    .div1img {
+      width: 100px;
+      border-radius: 10px;
+    }
+
+    .div2 {
+      grid-column: 1;
+      padding: 10px;
+      margin-top: 10px;
+    }
+
+    .div6 {
+      text-align: center;
+      width: 200px;
+    }
+
+    h1 {
+      font-size: 20px;
+    }
+
+    a {
+      color: blue;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+
+
+       
