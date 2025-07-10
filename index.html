@@ -7,31 +7,55 @@
     <link rel="stylesheet" href="Estilos/estilo.css">
 </head>
 <body>
+    <header>
     <h1>João Pedro Figueiredo Terra</h1>
+    <nav>
+      <a href="#sobre">Sobre</a>
+      <a href="#interesses">Interesses</a>
+      <a href="#instituicao">Instituição</a>
+      <a href="#tutorial">Tutorial</a>
+      <a href="#curriculo">Currículo</a>
+    </nav>
+    
+    <img src="Imagens/logoSerra.png" class="logo-header">
 
-    <img src="Imagens/AvatarMaker.png" alt="Avatar" style="display: block; margin: 0 auto; width: 300px;">
+  </header>
 
-    <h2>Sobre mim</h2>
-      <div class="TextoBorda">
-        <p>Não sou bom com descrições, muito menos descrições sobre mim.</p>
-    </div>
+  <div class="layout">
+    <aside>
+      <nav>
+        <a href="Tutorial/Tutorial.html" target="_blank">Tutorial</a>
+        <a href="curriculo.html" target="_blank">Currículo</a>
+      </nav>
+    </aside>
 
-    <h2>Meus interesses</h2>
-       <div class="TextoBorda">
+<main>
+      <section id="sobre">
+        <img src="Imagens/AvatarMaker.png" alt="Avatar" class="avatar">
+        <div class="TextoBorda">
+          <p>Não sou bom com descrições, muito menos descrições sobre mim.</p>
+        </div>
+      </section>
+
+      <section id="interesses">
+        <h2>Meus interesses</h2>
+        <div class="TextoBorda">
           <p>Gosto de video-games, música, e ler.</p>
-       </div>
+        </div>
+      </section>
 
-    <h2>Minha instituição (Ifes - Campus Serra)</h2>
-    <a href="https://serra.ifes.edu.br/" target="_blank">
-        <img src="Imagens/serra.png" alt="Imagem do Campus Serra" style="display: block; margin: 0 auto; width: 300px;">
-    </a>
+      <section id="instituicao">
+        <h2>Minha instituição (Ifes - Campus Serra)</h2>
+        <a href="https://serra.ifes.edu.br/" target="_blank">
+          <img src="Imagens/serra.png" alt="Imagem do Campus Serra" class="campus">
+        </a>
+      </section>
 
-    <h2>Tutorial</h2>
-    <p><a href="Tutorial/Tutorial.html" target="_blank">Ir para tutorial </a></p>
-    <h2>Currículo</h2>
-    <p><a href="curriculo.html" target="_blank">Ir para currículo </a></p>
+    </main>
+  </div>
 
-
-
+  <footer>
+    <p>© João Pedro – Ifes Campus Serra</p>
+  </footer>
 </body>
 </html>
